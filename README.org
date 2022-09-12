@@ -1,0 +1,25 @@
+#+title: Database Management System
+#+author: Shashwat Agrawal
+#+description: This Repository is for the database management system (mainly for the mysql)
+
+#+caption: Image
+#+attr_html: :alt Image :align center :class img
+[[https://upload.wikimedia.org/wikipedia/commons/7/72/ER_Diagram_MMORPG.png]]
+
+* Table of Content :toc:
+  - [[#what-is-a-database-][What is a Database ?]]
+  - [[#what-is-database-management-system-][What is Database Management System ?]]
+
+** What is a Database ?
+A database is an organized collection of structured information, or data, typically stored electronically in a computer system.
+
+** What is Database Management System ?
+The software which is used to manage databases is called Database Management System (DBMS). For Example, MySQL, Oracle, etc. are popular commercial DBMS used in different applications. DBMS allows users the following tasks:
+
+1. Data Definition: It helps in the creation, modification, and removal of definitions that define the organization of data in the database.
+
+2. Data Updation: It helps in the insertion, modification, and deletion of the actual data in the database.
+
+3. Data Retrieval: It helps in the retrieval of data from the database which can be used by applications for various purposes.
+
+4. User Administration: It helps in registering and monitoring users, enforcing data security, monitoring performance, maintaining data integrity, dealing with concurrency control, and recovering information corrupted by unexpected failure.
