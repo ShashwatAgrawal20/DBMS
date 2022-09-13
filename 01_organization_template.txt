@@ -13,9 +13,18 @@ CREATE TABLE Worker (
 
 INSERT INTO Worker
        (WORKER_ID, FIRST_NAME, LAST_NAME, SALARY, JOINING_DATE, DEPARTMENT) VALUES
-       (001, 'Shashwat', 'Agrawal', 1000000, '12-9-22 05.00.00', 'IT'),
-       (002, 'Demo', 'User', 1000000, '12-9-22 05.00.00', 'IT'),
-       (003, 'Linus', 'Torvalds', 1000000, '12-9-22 05.00.00', 'Kernel');
+       (001, 'Shashwat', 'Agrawal', 10000000, '12-9-22 05.00.00', 'IT'),
+       (002, 'Regina', 'Bell', 20000, '12-9-22 05.00.00', 'IT'),
+       (003, 'Christine', 'Williams', 3000, '12-9-22 05.00.00', 'HR'),
+       (004, 'Mark', 'Martin', 70000, '12-9-22 05.00.00', 'Admin'),
+       (005, 'Paige', 'Horton', 50000, '12-9-22 05.00.00', 'HR'),
+       (006, 'Norman', 'Rodriguez', 7400, '12-9-22 05.00.00', 'Marketing'),
+       (007, 'Aaron', 'Santos', 32000, '12-9-22 05.00.00', 'Marketing'),
+       (008, 'Lisa', 'Edwards', 11000, '12-9-22 05.00.00', 'Accountant'),
+       (009, 'Michele', 'Thomas', 120000, '12-9-22 05.00.00', 'Development'),
+       (010, 'James', 'Smith', 11000, '12-9-22 05.00.00', 'Accountant'),
+       (011, 'Rebekah', 'Anderson', 120000, '12-9-22 05.00.00', 'HR'),
+       (012, 'Gregory', 'Hicks', 200000, '12-9-22 05.00.00', 'Development');
 
 CREATE TABLE Bonus (
        WORKER_REF_ID INT,
@@ -29,8 +38,11 @@ CREATE TABLE Bonus (
 INSERT INTO Bonus
        (WORKER_REF_ID, BONUS_AMOUNT, BONUS_DATE) VALUES
             (001, '50000', '12-9-22'),
-            (002, '55000', '12-9-22'),
-            (003, '60000', '12-9-22');
+            (002, '10000', '12-9-22'),
+            (003, '12000', '12-9-22'),
+            (004, '15000', '12-9-22'),
+            (005, '45000', '12-9-22'),
+            (006, '15000', '12-9-22');
 
 CREATE TABLE Title(
        WORKER_REF_ID INT,
@@ -45,4 +57,8 @@ INSERT INTO Title
        (WORKER_REF_ID, WORKER_TITLE, AFFECTED_FROM) VALUES
             (001, 'Lead', '2008-11-11 13:23:44'),
             (002, 'Intern', '2008-11-11 13:23:44'),
-            (003, 'Manager', '2008-11-11 13:23:44');
+            (003, 'Lead', '2008-11-11 13:23:44'),
+            (004, 'Intern', '2008-11-11 13:23:44'),
+            (005, 'Manager', '2008-11-11 13:23:44'),
+            (006, 'Executive', '2008-11-11 13:23:44'),
+            (007, 'Lead', '2008-11-11 13:23:44');
